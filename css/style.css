@@ -427,7 +427,7 @@ main {
     right: 16px;
     width: 32px;
     height: 24px;
-    z-index: 170;
+    z-index: 200;
   }
 
   .hamburger span {
@@ -445,6 +445,7 @@ main {
 
   body.menu-open .hamburger span:nth-child(1) {
     transform: translateY(11px) rotate(45deg);
+    background: #fff;
   }
 
   body.menu-open .hamburger span:nth-child(2) {
@@ -453,6 +454,7 @@ main {
 
   body.menu-open .hamburger span:nth-child(3) {
     transform: translateY(-11px) rotate(-45deg);
+    background: #fff;
   }
 
   .overlay {
