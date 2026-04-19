@@ -422,7 +422,7 @@ main {
 
   .hamburger {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 16px;
     width: 32px;
